@@ -17,10 +17,13 @@ $parsedown = new Parsedown();
     <!-- little link back to index page -->
     <a href="index.php">↜ Index</a>
 
-    <?php
+    <div id="postContent">
+
+        
+        <?php
     // get the post name from the query string
     $postName = $_GET['name'] ?? 'default-post';
-
+    
     // load/parse the markdown
     $postPath = "posts/$postName.md";
     if (file_exists($postPath)) {
@@ -31,6 +34,7 @@ $parsedown = new Parsedown();
         echo "Post not found.";
     }
     ?>
+    </div>
 
 </body>
 
