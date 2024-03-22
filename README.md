@@ -1,6 +1,12 @@
 # Minimalist Blog Engine
 
-This project is a minimalist blog engine built with PHP, supporting Markdown for blog posts and basic styling for a clean, user-friendly interface.
+This project is a minimalist blog engine built with PHP, supporting Markdown for blog posts and basic styling.
+
+index.php:
+![screenshot of index.php](screenshot1.png)
+
+post.php
+![screenshot of post.php](screenshot2.png)
 
 ## Getting Started
 
