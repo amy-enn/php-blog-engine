@@ -1,0 +1,17 @@
+{
+    "name": "amy-enn/php-blog",
+    "description": "A minimalist blog engine in php.",
+    "autoload": {
+        "psr-4": {
+            "AmyEnn\\PhpBlog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amy-enn"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}

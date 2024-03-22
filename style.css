@@ -1,0 +1,61 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f5bda6;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    color: #0a252a;
+}
+
+#blogTitle {
+    text-align: center;
+}
+
+#portrait {
+    border-radius: 50%;
+    align-self: center;
+    max-width: 300px;
+}
+
+#aboutCleo {
+    margin: 2rem;
+    font-size: .8rem;
+    border: 5px solid #91a8ae;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+a {
+    color: #4d6266;
+}
+
+img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.post-list {
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    & ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.index-list-item {
+    list-style: none;
+    margin-bottom: 1rem;
+    & a {
+        text-decoration: none;
+    }
+}
