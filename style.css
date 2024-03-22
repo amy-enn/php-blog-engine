@@ -51,12 +51,17 @@ img {
 
 .post-list {
     align-self: center;
+    width: 85%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     & ul {
         margin: 0;
         padding: 0;
     }
+}
+
+#navigation {
+    text-align: center;
 }
 
 .index-list-item {
